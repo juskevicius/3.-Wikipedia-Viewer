@@ -1,0 +1,58 @@
+body, html {
+  background-color: rgb(192, 232, 216);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1024px-Magnifying_glass_icon.svg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#tags {
+  font-size: 28px;
+  padding: 0px 20px;
+  position: absolute;
+  top: 31%;
+  left: 3%;
+  border-radius: 20px;
+  -webkit-transition: border-radius 2s, margin-bottom 1s;
+  transition: border-radius 2s, margin-bottom 1s;
+  border: none;
+}
+
+#tags:focus {
+  outline: none;
+  border-radius: 0px;
+}
+
+#wiki {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  font-family: 'Molle', cursive;
+  font-size: 32px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.ui-autocomplete {
+  background-color: white;
+  font-size: 14px;
+  height: 130px;
+  border: none !important;
+}
+
+.result {
+  background-color: white;
+  margin: 0px 15%;
+  padding: 25px 40px;
+}
+
+.result h1 a {
+  color: black;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.result p {
+  font-size: 16px;
+}
